@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OurHistory</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+</head>
+<body>
+<div class = "titulo-main-container">
+    <h1 class="titulo-main">Nossa História</h1>
+</div>
+
+    <section class="container-timeline">
+        <article class="evento">
+            <div class="evento-texto">Nosso primeiro encontro 💖</div>
+            <img src="{{ url_for('static', filename='images/foto1.jpeg') }}" class= 'evento-img' alt="Foto do nosso primeiro encontro">
+        </article>
+        
+        <article class="evento">
+            <div class="evento-texto">A primeira viagem juntos ✈️</div>
+            <img src="{{ url_for('static', filename='images/foto2.jpg') }}" class= 'evento-img' alt="Foto da nossa primeira viagem juntos">
+        </article>
+    
+        <article class="evento">
+            <div class="evento-texto">Nosso aniversário 🎉</div>
+            <img src="{{ url_for('static', filename='images/foto3.jpeg') }}" class= 'evento-img' alt="Foto do nosso primeiro aniversário de namoro">
+        </article>
+    
+        <article class="evento">
+            <div class="evento-texto">O dia que dissemos "eu te amo" ❤️</div>
+            <img src="{{ url_for('static', filename='images/foto4.jpg') }}" class= 'evento-img' alt="Foto do dia que dissemos 'eu te amo'">
+        </article>
+    </section>
+    
+    <div class="container-contador">
+        <h1>Juntos há</h1>
+        <div id="contador">
+            <div class="contador-item">
+                <span id="anos">0</span>
+                <span class="label">Anos</span>
+            </div>
+            <div class="contador-item">
+                <span id="meses">0</span>
+                <span class="label">Meses</span>
+            </div>
+            <div class="contador-item">
+                <span id="semanas">0</span>
+                <span class="label">Semanas</span>
+            </div>
+            <div class="contador-item">
+                <span id="dias">0</span>
+                <span class="label">Dias</span>
+            </div>
+            <div class="contador-item">
+                <span id="horas">0</span>
+                <span class="label">Horas</span>
+            </div>
+            <div class="contador-item">
+                <span id="minutos">0</span>
+                <span class="label">Minutos</span>
+            </div>
+            <div class="contador-item">
+                <span id="segundos">0</span>
+                <span class="label">Segundos</span>
+            </div>
+            <div class="contador-item">
+                <span class="label">❤️</span>
+            </div>
+        </div>
+    </div>    
+
+        <audio id="background-music" autoplay loop>
+            <source src="{{ url_for('static', filename='music/musica.mp3') }}" type="audio/mp3">
+        </audio>
+    </div>
+
+    <div id="particles-js"></div>
+
+</body>
+</html>
