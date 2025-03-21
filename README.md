@@ -18,6 +18,11 @@ OurHistory é um site desenvolvido para celebrar momentos importantes de um rela
 - **Backend:** Python (Flask)
 - **Bibliotecas:** Particles.js (efeito de partículas), Intersection Observer API (animações)
 
+## 🖼️ Screenshots
+Aqui estão algumas capturas de tela da aplicação:
+
+![OurStory](https://github.com/user-attachments/assets/7056b864-725b-4447-944b-0eae97d5f058) ![OurStory contador](https://github.com/user-attachments/assets/1b329663-577e-450c-9947-fa2a7050c9a5)
+
 ## 🚀 Como Usar
 1. Clone o repositório:
    ```sh
@@ -49,6 +54,11 @@ OurHistory is a website designed to celebrate important moments in a relationshi
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** Python (Flask)
 - **Libraries:** Particles.js (particle effects), Intersection Observer API (animations)
+
+## 🖼️ Screenshots
+Here are some screenshots of the aplication:
+
+![OurStory](https://github.com/user-attachments/assets/7056b864-725b-4447-944b-0eae97d5f058) ![OurStory contador](https://github.com/user-attachments/assets/1b329663-577e-450c-9947-fa2a7050c9a5)
 
 ## 🚀 How to Use
 1. Clone the repository:
